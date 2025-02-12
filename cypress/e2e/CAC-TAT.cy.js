@@ -130,7 +130,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
 
 
     it('marca ambos checkboxes, depois desmarca o último', () => {
-      cy.get('input[type="checkbox"') //mesmo comando que radio button
+      cy.get('input[type="checkbox"]') //mesmo comando que radio button
         .check() //marcar
         .should('be.checked') //verificar marcado
         .last() //o último checkbox
